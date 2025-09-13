@@ -85,7 +85,7 @@ python gene_for_viz_or_metrics.py \
 ```python
 python gene_for_viz_or_metrics.py \
 --content_encoder_path ./checkpoint/content_encoder.pt \
---generator_path ./checkpoint/cat2dog_IFC_UNIT.pt  \
+--generator_path ./checkpoint/cat2dog_EC-UNIT.pt  \
 --mode calc \
 --target_paths ../../dataset/afhq/val/dog/ \
 --source_paths ../../dataset/afhq/val/cat/ \
