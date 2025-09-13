@@ -45,8 +45,9 @@ Pretrained models can be downloaded from [Google Drive](https://drive.google.com
 ## Image-to-Image Translation Training
 ```python
 python train.py --task TASK --batch BATCH_SIZE --iter ITERATIONS \
-                --source_paths SPATH1 SPATH2 ... SPATHS --source_num SNUM1 SNUM2 ... SNUMS \
-                --target_paths TPATH1 TPATH2 ... TPATHT --target_num TNUM1 TNUM2 ... TNUMT
+                --source_paths SPATH1 SPATH2 ... SPATHN --source_num SNUM1 SNUM2 ... SNUMN \
+                --target_paths TPATH1 TPATH2 ... TPATHM --target_num TNUM1 TNUM2 ... TNUMM \
+                --target_type TTYPE
 ```
 ### Instance
 __Cat->Dog__
